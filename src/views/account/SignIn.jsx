@@ -8,7 +8,7 @@ const SignInView = () => {
     alert(JSON.stringify(values));
   };
   useEffect(()=>{
-        <Ad/>
+        // <Ad/>
   })
   return (
     <div className="container my-3">
@@ -34,7 +34,7 @@ const SignInView = () => {
           <SignInForm onSubmit={onSubmit} />
         </div>
       </div>
- <Ad/>
+ {/* <Ad/> */}
     </div>
   );
 };

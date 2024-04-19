@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Ad from "../../components/adroll/Ad";
 const SignInForm = lazy(() => import("../../components/account/SignInForm"));
@@ -7,6 +7,9 @@ const SignInView = () => {
   const onSubmit = async (values) => {
     alert(JSON.stringify(values));
   };
+  useEffect(()=>{
+        <Ad/>
+  })
   return (
     <div className="container my-3">
       <div className="row border">

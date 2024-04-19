@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Ad = () => {
+   
   return (
     <React.Fragment>
       <script type="text/javascript">

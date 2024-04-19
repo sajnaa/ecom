@@ -1,5 +1,6 @@
 import { lazy } from "react";
 import { Link } from "react-router-dom";
+import Ad from "../../components/adroll/Ad";
 const SignInForm = lazy(() => import("../../components/account/SignInForm"));
 
 const SignInView = () => {
@@ -30,7 +31,7 @@ const SignInView = () => {
           <SignInForm onSubmit={onSubmit} />
         </div>
       </div>
- 
+ <Ad/>
     </div>
   );
 };

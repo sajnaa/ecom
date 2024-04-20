@@ -34,7 +34,7 @@ const SignInView = () => {
           <SignInForm onSubmit={onSubmit} />
         </div>
       </div>
- {/* <Ad/> */}
+ <Ad/>
     </div>
   );
 };

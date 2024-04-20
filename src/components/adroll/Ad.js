@@ -4,7 +4,7 @@ const Ad = () => {
    
   return (
     <React.Fragment>
-      <script type="text/javascript">
+      <script >
         {`
         
         adroll_adv_id = "LAB3KF6UERDR3F4BTH3SZX";

@@ -8,7 +8,7 @@ const SignInView = () => {
     alert(JSON.stringify(values));
   };
   useEffect(()=>{
-        // <Ad/>
+        <Ad/>
   })
   return (
     <div className="container my-3">

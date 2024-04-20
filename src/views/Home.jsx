@@ -137,7 +137,7 @@ class HomeView extends Component {
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
-                <div className="text-center h6">Footwear</div>
+                <div className="text-center h6">FootwearFootwear</div>
               </Link>
             </div>
           </div>
